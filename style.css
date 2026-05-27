@@ -582,13 +582,13 @@ font-size: clamp(5rem, 8vw, 6.4rem);
     text-decoration-color: #cfa93f;
     font-family: "abalos";
     font-style: italic;
-   font-size: clamp(1.2rem, 2.3vw, 6rem);
+   font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .recttext1{
     margin-top: 5px;
     color:beige;
     font-family: "Birthstone";
- font-size: clamp(1.2rem, 2.3vw, 6rem);
+ font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .rect2{
     position: relative;
@@ -652,13 +652,13 @@ font-size: clamp(5rem, 8vw, 6.4rem);
     text-decoration-color: #cfa93f;
     font-family: "abalos";
     font-style: italic;
-font-size: clamp(1.2rem, 2.3vw, 6rem);
+font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .recttext2{
     margin-top: 5px;
     color:beige;
     font-family: "Birthstone";
-font-size: clamp(1.2rem, 2.3vw, 6rem);
+font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .rect3{
     position: relative;
@@ -722,13 +722,13 @@ font-size: clamp(1.2rem, 2.3vw, 6rem);
     text-decoration-color: #cfa93f;
     font-family: "abalos";
     font-style: italic;
-   font-size: clamp(1.2rem, 2.3vw, 6rem);
+   font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .recttext3{
     margin-top: 5px;
     color:beige;
     font-family: "Birthstone";
-  font-size: clamp(1.2rem, 2.3vw, 6rem);
+  font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .rect4{
     position: relative;
@@ -792,13 +792,13 @@ font-size: clamp(1.2rem, 2.3vw, 6rem);
     text-decoration-color: #cfa93f;
     font-family: "abalos";
     font-style: italic;
-   font-size: clamp(1.2rem, 2.3vw, 6rem);
+   font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .recttext4{
     margin-top: 5px;
     color:beige;
     font-family: "Birthstone";
-    font-size: clamp(1.2rem, 2.3vw, 6rem);
+    font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .rect5{
     position: relative;
@@ -862,13 +862,13 @@ font-size: clamp(1.2rem, 2.3vw, 6rem);
     text-decoration-color: #cfa93f;
     font-family: "abalos";
     font-style: italic;
-  font-size: clamp(1.2rem, 2.3vw, 6rem);
+  font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .recttext5{
     margin-top: 5px;
     color:beige;
     font-family: "Birthstone";
-    font-size: clamp(1.2rem, 2.3vw, 6rem);
+    font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .rect6{
     position: relative;
@@ -932,13 +932,13 @@ font-size: clamp(1.2rem, 2.3vw, 6rem);
     text-decoration-color: #cfa93f;
     font-family: "abalos";
     font-style: italic;
-  font-size: clamp(1.2rem, 2.3vw, 6rem);
+  font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .recttext6{
     margin-top: 5px;
     color:beige;
     font-family: "Birthstone";
-font-size: clamp(1.2rem, 2.3vw, 6rem);
+font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .rect7{
     position: relative;
@@ -1002,13 +1002,13 @@ font-size: clamp(1.2rem, 2.3vw, 6rem);
     text-decoration-color: #cfa93f;
     font-family: "abalos";
     font-style: italic;
-font-size: clamp(1.2rem, 2.3vw, 6rem);
+font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .recttext7{
     margin-top: 5px;
     color:beige;
     font-family: "Birthstone";
-font-size: clamp(1.2rem, 2.3vw, 6rem);
+font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .estarp:hover .rect1,
 .erocketp:hover .rect2,
