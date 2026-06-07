@@ -1055,7 +1055,7 @@ font-size: clamp(1.2rem, 2vw, 6rem);
 #closerrectangle{
     margin-right: auto;
     width:auto;
-    height:15px;
+    height:25px;
     cursor: pointer;
     user-select: none;
 }
@@ -1322,10 +1322,28 @@ font-size: clamp(1.2rem, 2vw, 6rem);
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 50px;
-    margin-top: 20vh;
     display: flex;
     flex-direction: column;
     gap:20px;
+    margin-top: 15vh;
+}
+
+.box-4{
+    grid-area: box-4;
+    padding:10px 20px;
+    margin-right: 5vw;
+}
+.imglast{
+    width:35vw;
+    height: 90vh;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-53%);
+    border-radius: 20px;
+    background-image: url(https://res.cloudinary.com/dshmhktwh/image/upload/v1777929036/iMac-on-Concrete-Mockup_1_q6rf9l.png);
+    background-position: center;
+    background-size: cover;
 }
 .titleabout{
     font-family: "abalos",sans-serif;
@@ -1340,7 +1358,7 @@ font-size: clamp(1.2rem, 2vw, 6rem);
     margin-bottom: 5vh;
 }
 .contactmep {
-    width: 15vw;
+    width: 25vw;
     height: auto;
 }
 
@@ -1385,21 +1403,11 @@ font-size: clamp(1.2rem, 2vw, 6rem);
 }
 .box-4{
     grid-area: box-4;
-    padding:10px 20px;
-    margin-top: 10vh;
-    margin-right: 5vw;
-}
-.imglast{
-    width:35vw;
-    height: 90vh;
-    position: relative;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-53%);
-    border-radius: 20px;
-    background-image: url(https://res.cloudinary.com/dshmhktwh/image/upload/v1777929036/iMac-on-Concrete-Mockup_1_q6rf9l.png);
-    background-position: center;
-    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 20vh;
 }
 .contactmep2{
     display: none;
@@ -1514,11 +1522,11 @@ font-size: clamp(1.2rem, 2vw, 6rem);
     }
     #hiddenbox{ 
         width:100%;
-        height: 100vh;
+        height: 120vh;
         background-color:rgba(9, 11, 8); 
         display: grid; 
         grid-template-columns: 1fr;
-        grid-template-rows: 30vh auto;
+        grid-template-rows: 60vh 45vh;
         grid-template-areas:
             "box-3"
             "box-4";
@@ -1537,33 +1545,42 @@ font-size: clamp(1.2rem, 2vw, 6rem);
     }
     .box-4{
         grid-area: box-4;
-        padding:10px 20px;
+        padding:0px;
         margin-top: 0vh;
         margin-right: 0vw;
         flex-direction: column;
     }
     .imglast{
-        width:80vw;
-        height: 50vh;
-        position: relative;
-        top:50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        z-index: 1;
-    }   
+        width:75vw;
+        height: 65vh;
+        transform: translate(-50%,-40%);
+    }
 }
-
+@media (max-width: 540px) {
+    .imglast{
+        width:70vw;
+        height: 45vh;
+        transform: translate(-50%,-40%);
+    }
+}
 @media (max-width: 480px) {
+    .firsttitle .creative {
+        transform: translateX(-5vh);
+    }
+    .firsttitle .websites { 
+        transform: translateX(5vh);
+    } 
     .textlogo{
         display: none;
     }
     .photo {
-        width:auto;           
+        width:150%;           
         height:70vh;
     }
     .pc{
-        height:60vh;
+        height:48vh;
         width:auto;
+        transform: translate(-50%,-110%);
     }
     .estar{
         left:20%;
@@ -1571,23 +1588,6 @@ font-size: clamp(1.2rem, 2vw, 6rem);
     }
     .spotlight h3{
         font-size: 2rem;
-    }
-    .imglast{
-        width:70vw;
-        height: 35vh;
-        transform: translate(-50%,-10%);
-    }
-    #hiddenbox{ 
-        width:100%;
-        height: 100vh;
-        background-color:rgba(9, 11, 8); 
-        display: grid; 
-        grid-template-columns: 1fr;
-        grid-template-rows: 30vh auto;
-        grid-template-areas:
-            "box-3"
-            "box-4";
-        padding: 5px;
     }
     .divider2 {
         display: flex;
@@ -1599,8 +1599,35 @@ font-size: clamp(1.2rem, 2vw, 6rem);
         width:80%;
         height:75%;
     }
-
+    .imglast{
+        width:60vw;
+        height: 35vh;
+        transform: translate(-50%,-30%);
+    }
+    .last {
+        height: 20vh;
+    }
+    .spotlight {
+        height: 20vh;
+    }
+    .navbar {
+        padding: 0 20px;
+    }
+    .navlinks{
+        gap: 10px;
+    }
+    .logo{
+        height:4vh;
+        width:auto;
+    }
 } 
+@media (max-width: 420px) {
+    .imglast{
+        width:80vw;
+        height: 30vh;
+        transform: translate(-50%,-30%);
+    }        
+}
 @media (max-width: 320px) {
     .navbar {
         padding: 0 5px;
@@ -1641,11 +1668,6 @@ font-size: clamp(1.2rem, 2vw, 6rem);
     .spotlight {
         height: 30vh;
     }
-    .imglast{
-        width:86vw;
-        height: 35vh;
-        transform: translate(-50%,-10%);
-    }
     .titleabout{
         font-size: 1.8rem;
     }
@@ -1656,8 +1678,8 @@ font-size: clamp(1.2rem, 2vw, 6rem);
         grid-area: box-3;
         padding-top: 0px;
         padding-bottom: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         margin-top: 10vh;
         display: flex;
         flex-direction: column;
@@ -1665,12 +1687,12 @@ font-size: clamp(1.2rem, 2vw, 6rem);
     }
     .box-4{
         grid-area: box-4;
-        padding:10px 10px;
+        padding:5px 5px;
         margin-top: 0vh;
         margin-right: 0vw;
     }
     .contactmep {
-        width: 30vw;
+        width: 40vw;
         height: auto;
     }
     .divider{
@@ -1684,4 +1706,9 @@ font-size: clamp(1.2rem, 2vw, 6rem);
         height:85%;
         padding:10px;
     }
+    .imglast{
+        width:60vw;
+        height: 35vh;
+        transform: translate(-50%,-10%);
+    }        
 } 
